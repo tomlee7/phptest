@@ -7,6 +7,5 @@ $Data = $_POST['email']."<br/>";
 fwrite($Handle, $Data); 
 $Data=$_POST['comments']."<br/>";
 fwrite($Handle,$Data);
-print "Data Written";
 fclose($Handle); 
 ?>
